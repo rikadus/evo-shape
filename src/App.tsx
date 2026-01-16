@@ -10,7 +10,7 @@ function App() {
   const { measurements, addMeasurement, deleteMeasurement } = useMeasurements(TEMP_USER_ID);
 
   return (
-    <div className="min-h-screen bg-slate-50 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto space-y-8">
         <header className="text-center">
           <h1 className="text-4xl font-extrabold text-slate-900 tracking-tight sm:text-5xl mb-2">
